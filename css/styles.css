@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
+* {
+    font-family: Barlow Condensed;
+}
+:root {
+    --aqua-750: #006261;
+    --gold-500: #FCAF17;
+    --gold-250: #FEEBC5;
+    --absolutes-white: #FFFFFF;
+    --neutral-750: #404040;
+    --aqua-250: #BFEBEA;
+    --orange-250: #FBD8C7;
+    --aqua-900: #002C2C;
+}
+#main {
+    margin: 1.25em 0.5em;
+    border-radius: 2%;
+    width: 100%;
+    max-width: 340px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: var(--aqua-750);
+    text-align: center;
+    color: var(--gold-500);
+    padding-bottom: 1.5em;
+}
+#input {
+    display: flex;
+    justify-content: center;
+}
+
+#inputtodo {
+    display: flex;
+    padding: 5px 8px;
+    border-radius: 4px;
+    flex: 1 0 0;
+    border-color: transparent;
+    margin-left: 1em;
+    margin-right: 0.5em;
+}
+
+#submit {
+    background-color: var(--gold-250);
+    padding: 5px 8px;
+    border-radius: 4px;
+    border-color: transparent;
+    margin-right: 1em;
+}
+
+.item {
+    list-style-type: none;
+}
+.buttons {
+    display: flex;
+    justify-content:end;
+}
+
+#check {
+    padding: 5px 8px;
+    margin-right: 0.5em;
+    border-radius: 4px;
+    border-color: transparent;
+    background-color: var(--aqua-250);
+}
+
+#trash {
+    padding: 5px 8px;
+    margin-right: 0.5em;
+    border-radius: 4px;
+    border-color: transparent;
+    background-color: var(--orange-250);
+}
+
+footer {
+    text-align: center;
+    background-color: var(--aqua-900);
+    color:var(--absolutes-white);
+}
+
+span{
+    color: var(--gold-500);
+}
