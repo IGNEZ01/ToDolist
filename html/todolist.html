@@ -8,44 +8,48 @@
 </head>
 <body>
     <header id="header">
-        <h1>Todo List</h1>
+        <h1>Todo List 🧸</h1>
         <div id="input">
             <input type="text" id="inputtodo" placeholder="Write an item">
-            <button id="submit"><img src="../assets/plus1.svg" alt="add"></button>
+            <button id="submit" onclick="addTask()"><img src="../assets/plus1.svg" alt="add"></button>
         </div>
     </header>
     <div class="todo">
         <div id="addlist">
-            <ul>
-                <li id="itens" class="item">ir no mercado</li>
-                <div class="buttons">
-                    <button id="check"><img src="../assets/check1.svg" alt="check"></button>
-                    <button id="trash"><img src="../assets/trash-21.svg" alt="trash"></button>
-                </div>
+            <ul id="list-container">
+               <!-- <li class="item">ir no mercado
+                    <div class="buttons">
+                        <button class="check" onclick="checkTask(this)"><img src="../assets/check1.svg" alt="check"></button>
+                        <button class="trash" onclick="deleteTask(this)"><img src="../assets/trash-21.svg" alt="trash"></button>
+                    </div>
+                </li>
                 <hr>
-                <li id="itens" class="item">fazer almoço</li>
-                <div class="buttons">
-                    <button id="check"><img src="../assets/check1.svg" alt="check"></button>
-                    <button id="trash"><img src="../assets/trash-21.svg" alt="trash"></button>
-                </div>
+                <li class="item">fazer almoço
+                    <div class="buttons">
+                        <button class="check" onclick="checkTask(this)"><img src="../assets/check1.svg" alt="check"></button>
+                        <button class="trash" onclick="deleteTask(this)"><img src="../assets/trash-21.svg" alt="trash"></button>
+                    </div>
+                </li>
                 <hr>
-                <li id="itens" class="item">estudar</li>
-                <div class="buttons">
-                    <button id="check"><img src="../assets/check1.svg" alt="check"></button>
-                    <button id="trash"><img src="../assets/trash-21.svg" alt="trash"></button>
-                </div>
+                <li class="item">estudar
+                    <div class="buttons">
+                        <button class="check" onclick="checkTask(this)"><img src="../assets/check1.svg" alt="check"></button>
+                        <button class="trash" onclick="deleteTask(this)"><img src="../assets/trash-21.svg" alt="trash"></button>
+                    </div>
+                </li>
                 <hr>
-                <li id="itens" class="item">estudar mais</li>
-                <div class="buttons">
-                    <button id="check"><img src="../assets/check1.svg" alt="check"></button>
-                    <button id="trash"><img src="../assets/trash-21.svg" alt="trash"></button>
-                </div>
+                <li class="item">estudar mais
+                    <div class="buttons">
+                        <button class="check" onclick="checkTask(this)"><img src="../assets/check1.svg" alt="check"></button>
+                        <button class="trash" onclick="deleteTask(this)"><img src="../assets/trash-21.svg" alt="trash"></button>
+                    </div>
+                </li> -->
             </ul>
         </div>
     </div>
-<footer id="footer">
-    <span>Programmed by: </span> Ignez
-</footer>
+    <footer id="footer">
+        <span>Programmed by: </span> Ignez
+    </footer>
+    <script src="../javascript/scripts.js"></script>
 </body>
-<script src="../javascript/scripts.js"></script>
 </html>
