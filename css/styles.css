@@ -12,6 +12,7 @@
     --aqua-250: #BFEBEA;
     --orange-250: #FBD8C7;
     --aqua-900: #002C2C;
+    --neutral-250:#BFBFBF;
 }
 #main {
     margin: 1.25em 0.5em;
@@ -52,8 +53,6 @@ header {
 
 li {
     list-style-type: none;
-    cursor: pointer;
-    /*text-decoration: line-through;*/
 }
 
 .buttons {
@@ -85,4 +84,9 @@ footer {
 
 span{
     color: var(--gold-500);
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #000; 
 }
