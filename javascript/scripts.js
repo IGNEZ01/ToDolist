@@ -1,6 +1,4 @@
-// No arquivo "scripts.js":
 
-// Função para adicionar uma nova tarefa à lista
 function addTask() {
     const inputElement = document.getElementById('inputtodo');
     const inputValue = inputElement.value.trim();
@@ -32,12 +30,11 @@ function addTask() {
 
         newItem.appendChild(newButtonsDiv);
         listContainer.appendChild(newItem);
-
         inputElement.value = '';
     }
 }
 
-// Função para marcar uma tarefa como concluída
+
 function checkTask(item) {
     item.classList.toggle('completed');
 
@@ -62,7 +59,7 @@ function checkTask(item) {
     }
 }
 
-// Função para excluir uma tarefa da lista
+
 function deleteTask(item) {
     item.remove();
 }
